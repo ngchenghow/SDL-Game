@@ -1,0 +1,60 @@
+<?xml version="1.0" ?>
+<root>
+    
+    <blocks>
+        <block wet="99" weak="1">
+            <point x="100" y="90"/>
+            <point x="200" y="90"/>
+            <point x="200" y="110"/>
+            <point x="100" y="110"/>
+        </block>
+        
+        <block>
+            <point x="200" y="350"/>
+            <point x="830" y="50"/>
+            <point x="830" y="100"/>
+            <point x="200" y="400"/>
+        </block>
+        
+        <block jumpy="5">
+            <point x="1000" y="250"/>
+            <point x="1100" y="250"/>
+            <point x="1100" y="370"/>
+            <point x="1000" y="370"/>
+        </block>
+        
+        <block >
+            <point x="0" y="530"/>
+            <point x="800" y="500"/>
+            <point x="800" y="680"/>
+            <point x="0" y="680"/>
+        </block>
+        
+        <block>
+            <point x="700" y="300"/>
+            <point x="900" y="300"/>
+            <point x="900" y="430"/>
+            <point x="700" y="430"/>
+        </block>
+        
+        <block water="1">
+            <point x="800" y="560"/>
+            <point x="1600" y="560"/>
+            <point x="1600" y="760"/>
+            <point x="800" y="760"/>
+        </block>
+        
+        <block water="1">
+            <point x="800" y="760"/>
+            <point x="1600" y="760"/>
+            <point x="1600" y="960"/>
+            <point x="800" y="960"/>
+        </block>
+        
+    </blocks>
+    
+    <lines>
+        <line x1="150" y1="500" x2="150" y2="300" slope="1" amt="1" wind="1" gothou="0"/>
+    </lines>
+    
+</root>
